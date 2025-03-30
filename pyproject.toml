@@ -6,8 +6,12 @@ readme = "README.md"
 authors = [
     { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.12",
+    "mcp>=1.6.0",
+    "uvicorn>=0.34.0",
+]
 
 [project.scripts]
 relaymcp = "relaymcp:main"
